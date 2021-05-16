@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header text-center">
+                <h1 class="card-title fw-bold text-center">Aplikasi Todo List</h1>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="mb-3">
+                            <form action="" id="form-list">
+                                <label for="tulis-list" class="fw-bold">Mau mengerjakan apa hari ini</label>
+                                <input type="text" class="form-control" id="tulis-list" placeholder="Tulis sesuatu disini...">
+                                <div class="form-text">Tulis sesuatu yang mau dikerjakan hari ini</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Tambahkan
+                        </button>
+                        </form>
+                        <div class="mb-3 mt-3">
+                            <label for="cari-list" class="fw-bold">Cari List</label>
+                            <input type="text" class="form-control" id="cari-list" placeholder="Cari list disini">
+                        </div>
+
+                        <div class="d-grid gap-2 mt-2">
+                            <button class="btn btn-danger" type="button">Hapus Semua List</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <label for="form-list" class="fw-bold">Kegiatan Hari Ini</label>
+                        <ul class="list-group" id="workList">
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
